@@ -86,11 +86,6 @@ class Member {
 
   async index(req, res) {
     try {
-      let granted = await access.adminKasir(req)
-      if (!granted.status) {
-        return res.status(403).json(granted.message);
-      }
-
       let result = await member.findAll()
       return res.status(200).json({
         message: "success get all data member",

@@ -82,11 +82,6 @@ class Outlet {
 
   async index(req, res) {
     try {
-      let granted = await access.adminKasir(req)
-      if (!granted.status) {
-        return res.status(403).json(granted.message);
-      }
-
       let result = await outlet.findAll({include: ['user']})
       return res.status(200).json({
         message: "success delete data outlet",
