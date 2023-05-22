@@ -1,7 +1,7 @@
 
-# Laundy Chasier - Back-end Laravel
+# Laundy Chasier - Back-end Nodejs
 
-Another case from final project in my third year. This is the backend part. This one is the laravel version from the study case. There is also another version from this case using nodejs. Please search be-laundry-node if you want to know more. 
+Another case from final project in my third year. This is the backend part. This one is the laravel version from the study case. There is also another version from this case using laravel. Please search be-laundry-laravel if you want to know more. 
 ## Environment Variables
 No environtment variable
 
